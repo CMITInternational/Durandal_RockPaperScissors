@@ -9,15 +9,13 @@
         <div class="form-group">
             <label class="col-sm-2 control-label">Computer</label>
             <div class="col-sm-10">
-                <input class="form-control checkbox form-inline pull-left" type="checkbox" data-bind="checked: isComputer" />
+                <input class="form-inline" type="checkbox" data-bind="checked: isComputer" />
             </div>
         </div>
         <div class="form-group">
             <label class="col-sm-2 control-label">Element</label>
             <div class="col-sm-10" data-bind="foreach: {data: elements, as: 'element'}">
-                <label class="form-control radio form-inline">
-                    <input type="radio" data-bind="attr: {value: element, name: $parent.name}, checked: $parent.chosenElement" /> <span data-bind="text: element"></span>
-                </label>
+                <input class="form-inline" type="radio" data-bind="attr: {value: element, name: $parent.name}, checked: $parent.chosenElement" /> <span data-bind="text: element"></span>
             </div>
         </div>
     </fieldset>
