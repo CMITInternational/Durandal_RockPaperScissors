@@ -1,7 +1,5 @@
 ﻿(function() {
-    define(function(require) {
-        var ko = require('knockout');
-
+    define(['knockout'], function(ko) {
         return function(name, isComputer, chosenElement, elements) {
             var self = this;
 

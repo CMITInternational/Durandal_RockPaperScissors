@@ -98,13 +98,18 @@
     <Content Include="Scripts\durandal\viewEngine.js" />
     <Content Include="Scripts\durandal\viewLocator.js" />
     <None Include="Scripts\jquery-2.0.1.intellisense.js" />
+    <Content Include="Scripts\jasmine\boot.js" />
+    <Content Include="Scripts\jasmine\console.js" />
+    <Content Include="Scripts\jasmine\jasmine-html.js" />
+    <Content Include="Scripts\jasmine\jasmine.css" />
+    <Content Include="Scripts\jasmine\jasmine.js" />
+    <Content Include="Scripts\jasmine\jasmine_favicon.png" />
     <Content Include="Scripts\jquery-2.0.1.js" />
     <Content Include="Scripts\jquery-2.0.1.min.js" />
     <Content Include="Scripts\knockout-3.1.0.debug.js" />
     <Content Include="Scripts\knockout-3.1.0.js" />
     <Content Include="Scripts\r.js" />
     <Content Include="Scripts\require.js" />
-    <Content Include="weyland-config.js" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
@@ -115,6 +120,17 @@
     <Content Include="Content\fonts\fontawesome-webfont.eot" />
     <Content Include="Content\fonts\FontAwesome.otf" />
     <Content Include="Scripts\jquery-2.0.1.min.map" />
+    <Content Include="specs\node_modules\amdefine\amdefine.js" />
+    <Content Include="specs\node_modules\amdefine\intercept.js" />
+    <Content Include="specs\node_modules\amdrequire\changelog.md" />
+    <Content Include="specs\node_modules\amdrequire\LICENSE" />
+    <Content Include="specs\node_modules\amdrequire\package.json" />
+    <Content Include="specs\node_modules\amdrequire\README.md" />
+    <Content Include="specs\node_modules\amdefine\LICENSE" />
+    <Content Include="specs\node_modules\amdefine\package.json" />
+    <Content Include="specs\node_modules\amdefine\README.md" />
+    <Content Include="specs\node_modules\requirejs\package.json" />
+    <Content Include="specs\node_modules\requirejs\README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -124,11 +140,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\text.js" />
+    <Content Include="specs\node_modules\amdrequire\amdrequire.js" />
+    <Content Include="specs\node_modules\requirejs\bin\r.js" />
+    <Content Include="specs\node_modules\requirejs\require.js" />
+    <Content Include="specs\person.spec.js" />
+    <Content Include="specs\requirejs-setup.js" />
+    <Content Include="specs\requirejs-wrapper-template.js" />
+    <Content Include="specs\requirejs.spec.js" />
+    <Content Include="App\requirejs.sut.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
