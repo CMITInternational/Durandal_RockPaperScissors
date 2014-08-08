@@ -1,4 +1,10 @@
-﻿require.config({
+﻿/*
+Run this tes using
+==================
+jasmine-node --captureExceptions --runWithRequireJs --requireJsSetup ./requirejs-setup.js ./ --verbose
+*/
+
+require.config({
     paths: {
         'knockout': '../Scripts/knockout-3.1.0.debug',
     }
