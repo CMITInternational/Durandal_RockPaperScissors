@@ -120,6 +120,7 @@
     <Content Include="Content\fonts\fontawesome-webfont.eot" />
     <Content Include="Content\fonts\FontAwesome.otf" />
     <Content Include="Scripts\jquery-2.0.1.min.map" />
+    <Content Include="specs\knockout-mock.js" />
     <Content Include="specs\node_modules\amdefine\amdefine.js" />
     <Content Include="specs\node_modules\amdefine\intercept.js" />
     <Content Include="specs\node_modules\amdrequire\changelog.md" />

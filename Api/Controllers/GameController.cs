@@ -6,11 +6,13 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Cors;
 using Api.Models;
+using Autofac.Integration.WebApi;
 using Core;
 
 namespace Api.Controllers
 {
     [EnableCors(origins: "http://localhost:49609,http://localhost:50885", headers: "*", methods: "*")]
+    [AutofacControllerConfiguration]
     public class GameController : ApiController
     {
         private readonly IGameEngine _gameEngine;
