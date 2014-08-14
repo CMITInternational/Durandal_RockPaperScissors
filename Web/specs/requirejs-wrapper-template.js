@@ -68,6 +68,8 @@ requirejs.config = function(config){
       }
     }
 
+    console.log('base = ' + base);
+
     alteredConfig.baseUrl = base;
   }
 

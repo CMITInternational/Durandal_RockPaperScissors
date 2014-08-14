@@ -9,6 +9,9 @@
         'jquery': '../Scripts/jquery-2.0.1'
     },
     shim: {
+        'jquery': {
+            exports: 'JQuery'  
+        },
         'bootstrap': {
             deps: ['jquery'],
             exports: 'jQuery'

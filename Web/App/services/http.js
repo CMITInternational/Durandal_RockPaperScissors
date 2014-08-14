@@ -1,7 +1,7 @@
 ﻿(function() {
-    define(function(require) {
+    define(["jquery"],function(jQuery) {
         var ajax = function(type, url, data) {
-            return $.ajax({
+            return jQuery.ajax({
                 type: type,
                 url: url,
                 data: data,

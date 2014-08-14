@@ -120,7 +120,10 @@
     <Content Include="Content\fonts\fontawesome-webfont.eot" />
     <Content Include="Content\fonts\FontAwesome.otf" />
     <Content Include="Scripts\jquery-2.0.1.min.map" />
-    <Content Include="specs\knockout-mock.js" />
+    <Content Include="specs\game.spec.js" />
+    <Content Include="specs\http-mock.js" />
+    <Content Include="specs\http.spec.js" />
+    <Content Include="specs\jquery-mock.js" />
     <Content Include="specs\node_modules\amdefine\amdefine.js" />
     <Content Include="specs\node_modules\amdefine\intercept.js" />
     <Content Include="specs\node_modules\amdrequire\changelog.md" />
@@ -147,8 +150,6 @@
     <Content Include="specs\person.spec.js" />
     <Content Include="specs\requirejs-setup.js" />
     <Content Include="specs\requirejs-wrapper-template.js" />
-    <Content Include="specs\requirejs.spec.js" />
-    <Content Include="App\requirejs.sut.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

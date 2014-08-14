@@ -1,6 +1,5 @@
 ﻿(function() {
-    define(function(require) {
-        var http = require('services/http');
+    define(['services/http'],function(http) {
         var _url = "/api/Game";
 
         return {
